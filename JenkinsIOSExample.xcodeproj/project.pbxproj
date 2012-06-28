@@ -22,6 +22,8 @@
 		BC22506813B2BA940006D350 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC22506613B2BA940006D350 /* InfoPlist.strings */; };
 		BC22506B13B2BA940006D350 /* JenkinsIOSExampleTests.h in Resources */ = {isa = PBXBuildFile; fileRef = BC22506A13B2BA940006D350 /* JenkinsIOSExampleTests.h */; };
 		BC22506D13B2BA940006D350 /* JenkinsIOSExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC22506C13B2BA940006D350 /* JenkinsIOSExampleTests.m */; };
+		E44A77C2159C9CE1004619C9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E44A77C0159C9CE1004619C9 /* Icon.png */; };
+		E44A77C3159C9CE1004619C9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E44A77C1159C9CE1004619C9 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		BC22506913B2BA940006D350 /* JenkinsIOSExampleTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JenkinsIOSExampleTests-Prefix.pch"; sourceTree = "<group>"; };
 		BC22506A13B2BA940006D350 /* JenkinsIOSExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JenkinsIOSExampleTests.h; sourceTree = "<group>"; };
 		BC22506C13B2BA940006D350 /* JenkinsIOSExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsIOSExampleTests.m; sourceTree = "<group>"; };
+		E44A77C0159C9CE1004619C9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E44A77C1159C9CE1004619C9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E44A77C5159C9CF2004619C9 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +120,10 @@
 			children = (
 				BC22504C13B2BA940006D350 /* JenkinsIOSExampleAppDelegate.h */,
 				BC22504D13B2BA940006D350 /* JenkinsIOSExampleAppDelegate.m */,
-				BC22504F13B2BA940006D350 /* MainWindow.xib */,
 				BC22505213B2BA940006D350 /* JenkinsIOSExampleViewController.h */,
 				BC22505313B2BA940006D350 /* JenkinsIOSExampleViewController.m */,
 				BC22505513B2BA940006D350 /* JenkinsIOSExampleViewController.xib */,
+				BC22504F13B2BA940006D350 /* MainWindow.xib */,
 				BC22504413B2BA940006D350 /* Supporting Files */,
 			);
 			path = JenkinsIOSExample;
@@ -127,8 +132,11 @@
 		BC22504413B2BA940006D350 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BC22504513B2BA940006D350 /* JenkinsIOSExample-Info.plist */,
+				E44A77C0159C9CE1004619C9 /* Icon.png */,
+				E44A77C1159C9CE1004619C9 /* Icon@2x.png */,
 				BC22504613B2BA940006D350 /* InfoPlist.strings */,
+				E44A77C5159C9CF2004619C9 /* iTunesArtwork */,
+				BC22504513B2BA940006D350 /* JenkinsIOSExample-Info.plist */,
 				BC22504913B2BA940006D350 /* JenkinsIOSExample-Prefix.pch */,
 				BC22504A13B2BA940006D350 /* main.m */,
 			);
@@ -225,6 +233,8 @@
 				BC22504813B2BA940006D350 /* InfoPlist.strings in Resources */,
 				BC22505113B2BA940006D350 /* MainWindow.xib in Resources */,
 				BC22505713B2BA940006D350 /* JenkinsIOSExampleViewController.xib in Resources */,
+				E44A77C2159C9CE1004619C9 /* Icon.png in Resources */,
+				E44A77C3159C9CE1004619C9 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
